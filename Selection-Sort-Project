@@ -10,10 +10,10 @@ Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden
 
 Insertion Sort Algoritması, düzensiz dizi elemanlarını tek tek ele alarak her birini dizinin sıralanmış kısmındaki uygun yerine yerleştirme esasına dayanır.
 
-- İlk olarak ilk sayı ikinci sayı olan 27 ile karşılaştırılır 22<27 olduğu için değişiklik yapılmaz.
+- İlk olarak, ilk sayı 22, ikinci sayı olan 27 ile karşılaştırılır 22<27 olduğu için değişiklik yapılmaz.
   Daha sonra, üçüncü sırada olan 16 sayısı 22 ve 27'den küçük olduğu için en başa geçer.
   [22,27,16,2,18,6] -> [16,22,27,2,18,6]
-  Sıradaki 2 sayısı, 16,22,27 sayılarından küçük olduğu için en başa geçer.
+  Dördüncü sıradaki 2 sayısı, 16,22,27 sayılarından küçük olduğu için en başa geçer.
   [16,22,27,2,18,6] -> [2,16,22,27,18,6]
   [2,16,22,27,18,6] -> [2,16,18,22,27,6]
   [2,16,18,22,27,6] -> **[2,6,16,18,22,27] son durum**
@@ -26,7 +26,7 @@ Insertion Sort Algoritması, düzensiz dizi elemanlarını tek tek ele alarak he
 
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
-[7,3,5,8,2,9,4,15,6] -> [2,3,5,8,7,9,4,15,6]
-[2,3,5,8,7,9,4,15,6] -> [2,3,5,8,7,9,4,15,6]
-[2,3,5,8,7,9,4,15,6] -> [2,3,4,8,7,9,5,15,6]
-[2,3,4,8,7,9,5,15,6] -> [2,3,4,5,7,9,8,15,6]
+[7,3,5,8,2,9,4,15,6] -> [2,3,5,8,7,9,4,15,6] En küçük eleman 2'dir. 2 ile 7 yer değiştirdi. 
+[2,3,5,8,7,9,4,15,6] -> [2,3,4,8,7,9,5,15,6] 4 ile 5 yer değiştirdi.
+[2,3,4,8,7,9,5,15,6] -> [2,3,4,5,7,9,8,15,6] 5 ile 8 yer değiştirdi.
+[2,3,4,5,7,9,8,15,6] -> [2,3,4,5,6,9,8,15,7] 6 ile 7 yer değiştirdi.
